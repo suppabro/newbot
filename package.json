@@ -1,12 +1,12 @@
 {
   "name": "news-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "WhatsApp News Bot that scrapes news and sends it to groups",
+  "main": "whatsapp-group.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node whatsapp-group.js"
   },
-  "keywords": [],
+  "keywords": ["news", "whatsapp", "bot", "scraper"],
   "author": "mrhansamala",
   "license": "ISC",
   "dependencies": {
